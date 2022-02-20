@@ -96,13 +96,14 @@ section h3{
 picture img{
     width: 90%;
     padding: 0px 0px 5px 35px;
+    margin: auto;
 }
 
 ul,ol li {
     
     line-height: 1.5em;
     text-indent: 1em;
-    padding: 6px;
+    padding: 8px;
     list-style-position: inside;
     
     
