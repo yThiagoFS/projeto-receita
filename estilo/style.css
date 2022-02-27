@@ -42,6 +42,10 @@ header h1{
 header h3{
     font-size: 1.5em;
 }
+nav {
+    display: flex;
+    justify-content: space-between;
+}
 div#cabecalho {
     margin: auto;
     width: 100%;
@@ -51,23 +55,8 @@ div#cabecalho {
     background-color: #cab39f8a ;
     position: relative;
 }
-div#comidas1{
-    
-
-    max-width: 450px;
-    position: absolute;
-    left: 0%;
-    top: 17vh;
-    
-
-}
-div#comidas2{
-    
-    
-    max-width: 500px;
-    position: absolute;
-    left: 50%;
-    top: 17vh;
+div#comidas1, div#comidas2{
+    padding: 30px;
 }
 main {
     background-color: #FFE6CC;
